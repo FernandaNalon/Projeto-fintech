@@ -1,0 +1,86 @@
+#area-formulario {
+    background-color: rgb(195, 226, 255);
+    margin: 3% 15%;
+    padding: 2.5% 5%;
+    border-radius: 20px;
+}
+
+.titulo {
+    color: rgb(35, 35, 110);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+#botao {
+    background-color: rgb(35, 35, 110);
+    border: none;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.form-control {
+    height: 45px;
+}
+
+#area-botao {
+    display: flex;
+    justify-content: center;
+}
+
+#botao:hover {
+    box-shadow: 0px 0px 10px 5px rgb(134, 169, 202);
+    transition: 0.18s;
+}
+
+/* AREA DE MEDIA - RESPONSIVIDADE */
+
+@media screen and (min-width: 320px) {
+    .icone-voltar {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .titulo {
+        padding-bottom: 10px;
+    }
+
+    .form-check-label {
+        font-size: 12px;
+    }
+    
+    #botao {
+        width: 70%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .icone-voltar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .form-check-label {
+        font-size: 15px;
+    }
+    
+    #botao {
+        width: 50%;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .icone-voltar {
+        width: 50px;
+        height: 50px;
+    }
+}
